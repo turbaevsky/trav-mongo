@@ -113,8 +113,8 @@ class Flights(Document):
 	def __repr__(self):
 		return self.flight
 
-	def __str__(self):
-		return self.flight
+	#def __str__(self):
+#		return self.flight
 
 
 class Bus(Document):
